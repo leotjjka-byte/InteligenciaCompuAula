@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación IA - BMTV-2C</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Roboto Mono', monospace;
+            overflow-x: hidden;
+            background-image: radial-gradient(#333 1px, transparent 1px);
+            background-size: 20px 20px;
+            padding: 50px 20px;
+        }
+
+        .container {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Estilo para los bloques de información */
+        .card {
+            background: #252525;
+            padding: 20px;
+            border: 2px solid #444;
+            box-shadow: 10px 10px 0px #cf2e2e;
+            position: absolute;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02) rotate(0deg) !important;
+            z-index: 100;
+            border-color: #cf2e2e;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Permanent Marker', cursive;
+            color: #cf2e2e;
+            margin-top: 0;
+        }
+
+        p, li {
+            font-family: 'Special Elite', serif;
+            line-height: 1.4;
+        }
+
+        /* Posicionamiento Irregular */
+        .bloque-1 { width: 90%; position: relative; top: 0; left: 0; transform: rotate(-1deg); margin-bottom: 50px; }
+        .bloque-2 { width: 45%; position: relative; left: 5%; transform: rotate(2deg); margin-bottom: 40px; }
+        .bloque-3 { width: 50%; position: relative; left: 45%; transform: rotate(-2deg); margin-top: -60px; z-index: 2; }
+        .bloque-4 { width: 85%; position: relative; left: 5%; transform: rotate(1deg); margin-top: 30px; }
+        .bloque-5 { width: 95%; position: relative; transform: rotate(-0.5deg); margin-top: 50px; border-style: dashed; }
+
+        /* Sección de Integrantes */
+        .team-info {
+            margin-top: 100px;
+            padding: 20px;
+            border-top: 4px double #cf2e2e;
+            display: flex;
+            justify-content: space-between;
+            background: #111;
+        }
+
+        .integrantes { list-style: none; padding: 0; }
+        .integrantes li { color: #aaa; margin-bottom: 5px; }
+        .grupo-tag {
+            font-size: 2.5rem;
+            font-family: 'Permanent Marker';
+            color: #fff;
+            text-shadow: 3px 3px #cf2e2e;
+        }
+
+        .badge {
+            background: #cf2e2e;
+            color: white;
+            padding: 2px 8px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="card bloque-1">
+            <span class="badge">PROYECTO DE INVESTIGACIÓN</span>
+            <h1>El impacto de la IA en el aprendizaje</h1>
+            <p><strong>Objetivo general:</strong> Analizar si herramientas como ChatGPT realmente ayudan a los alumnos a aprender o si solo se usan para evitar el esfuerzo escolar.</p>
+            <h3>Objetivos específicos:</h3>
+            <ul>
+                <li>Identificar cómo cambia la forma de estudiar con la IA.</li>
+                <li>Conocer la opinión estudiantil sobre la capacidad de razonamiento.</li>
+            </ul>
+        </div>
+
+        <div class="card bloque-2">
+            <h2>¿Cómo investigamos?</h2>
+            <p><strong>Técnica:</strong> Entrevistas digitales.</p>
+            <p>Elegimos las entrevistas porque queríamos que los compañeros nos explicaran con sus propias palabras <em>cómo</em> usan la IA, profundizando en razones y no solo obtener números fríos.</p>
+        </div>
+
+        <div class="card bloque-3">
+            <h2>Desarrollo</h2>
+            <p>Entrevistamos vía WhatsApp y Meet a tres alumnos de diferentes grados. Preguntamos qué herramientas usan, si copian y pegan o si las usan para entender temas difíciles.</p>
+        </div>
+
+        <div class="card bloque-4">
+            <h2>Análisis de la información</h2>
+            <p>Notamos dos tipos de usuarios: los que la usan como <strong>"tutor"</strong> para dudas y los que la usan por <strong>"flojera"</strong> para tareas completas. Existe un miedo general a perder la capacidad de escribir o pensar por sí mismos.</p>
+        </div>
+
+        <div class="card bloque-5">
+            <h2>Conclusión Final</h2>
+            <p>La IA es una herramienta poderosa pero peligrosa. Su impacto depende totalmente de la <strong>ética del estudiante</strong>: puede ser un gran apoyo o un obstáculo para el desarrollo mental si no hay responsabilidad.</p>
+        </div>
+
+        <div class="team-info">
+            <div>
+                <h3>Integrantes:</h3>
+                <ul class="integrantes">
+                    <li>• Avila Encarnación kenia itzel</li>
+                    <li>• Hernández Cruz Melanie Citlali</li>
+                    <li>• Sanchez rios Leonardo emilio</li>
+                </ul>
+            </div>
+            <div style="text-align: right;">
+                <p>GRUPO:</p>
+                <div class="grupo-tag">BMTV-2C</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
